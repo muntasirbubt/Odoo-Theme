@@ -1,0 +1,84 @@
+.test-heading {
+    color: #613659;
+}
+.style_test01 {
+    background-image: url("/theme_01/static/src/img/download.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #cccccc;
+    padding: 1em;
+    border-radius: 7px;
+    margin: 2em 0 3em;
+    li {
+        display: block;
+        position: relative;
+        color: #FFFFFF;
+        padding: 2em;
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 1.0em;
+        background-color: #Abcde;
+    }
+}
+// for images
+.image-row {
+                margin-bottom: 1em;
+                display: flex;
+                flex-wrap: nowrap;
+                overflow-x: scroll;
+            }
+
+            .image-item {
+                text-align: center;
+                flex-shrink: 0;
+                width: 33.33%;
+                height: 400px;
+                margin-right: 10px;
+            }
+
+.carousel-inner .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height : 400px;
+        width : 33%;
+    }
+
+
+
+// for home page
+
+.container {
+    color: #003a5d;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff789;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+// For menu.xml
+.navbar-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar-nav li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+  color: #ff0000;
+}
