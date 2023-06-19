@@ -5,21 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292f08c7-2af0-4c39-b830-fc4b909563a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/download (2).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/download (3).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/download (4).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (2).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (3).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/scss/primary_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/views/footer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/views/header.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo-15.0/odoo.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/agent1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/agent2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/agent3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/agent4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/agent5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/city8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/hlw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/property1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/property2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/property3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/property4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/service-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/views/homepage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/download (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/download (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/download (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img/images (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/views/footer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/views/footer.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +59,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/unisoft/Documents/For Theme Testing/odoo-15.0/custom-addons/theme_home/static/src/img",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/unisoft/Documents/For Theme Testing/odoo-15.0/custom-addons/theme_home/static/src/img&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/odoo-15.0/custom-addons/theme_home/static/src/img" />

@@ -2,8 +2,8 @@
 <odoo>
     <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
         <xpath expr="//footer" position="replace">
-            <footer>
-                <div class="container py-5">
+            <footer class="mg-0">
+                <div class="container py-5 border-top">
                     <div class="row">
                         <div class="col-lg-5">
                             <img class='footer-logo' src="/theme_home/static/src/img/images.png"/>

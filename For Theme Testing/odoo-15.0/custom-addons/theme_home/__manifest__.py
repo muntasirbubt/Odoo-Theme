@@ -8,6 +8,7 @@
     'data': [
         'views/header.xml',
         'views/footer.xml',
+        'views/homepage.xml',
     ],
     'assets': {
         'web.assets_frontend': [
