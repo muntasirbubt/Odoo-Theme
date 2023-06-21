@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="yh_cities_form" model="ir.ui.view">
+            <field name="name">yh.cities.form</field>
+            <field name="model">yh.cities</field>
+            <field name="arch" type="xml">
+                <form string="Cities">
+                    <sheet>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                        <group string="">
+                            <field name="country_id"/>
+                            <field name="state_id"/>
+                            <field name="description"/>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="yh_cities_view_tree" model="ir.ui.view">
+            <field name="name">yh.cities.view.tree</field>
+            <field name="model">yh.cities</field>
+            <field name="arch" type="xml">
+                <tree string="Cities">
+                    <field name="country_id"/>
+                    <field name="state_id"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="yh_cities_action" model="ir.actions.act_window">
+            <field name="name">Cities</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">yh.cities</field>
+            <field name="view_mode">form,tree</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No Cities yet!
+                </p>
+                <p>
+                    Please add a new city!
+                </p>
+            </field>
+        </record>
+
+
+        <menuitem id="yh_root_menu"
+                  name="My Home"
+                  sequence="81"
+                  parent="website.menu_website_configuration"/>
+
+        <menuitem id="menu_cities_sub_menu" name="Cities"
+                  sequence="1"
+                  parent="yh_root_menu"
+                  action="theme_home.yh_cities_action"/>
+    </data>
+</odoo>

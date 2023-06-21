@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="new_properties" name="New Properties">
+        <section class="new-properties o_cc5">
+            <div class="container py-5">
+                <div class="d-flex align-item-center">
+                    <h2 class="h1">
+                        New Properties
+                    </h2>
+                    <a herf="#"
+                       class="ml-auto btn btn-primary mb-2 mt-3 rounded-circle font-wight-medium">
+                        <t t-esc="cta_btn_text ">View All Properties</t>
+                    </a>
+                </div>
+                <div class="row py-4">
+                    <div class="col-lg-3">
+                        <div class="img-container rounded">
+                            <img class="object-fit rounded"
+                                 src="/theme_home/static/src/img/property1.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block h4 m-0">Housing Vila</span>
+                            <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                            <span class="text-light d-block">Dhaka,Bangladesh</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="img-container rounded">
+                            <img class="object-fit rounded"
+                                 src="/theme_home/static/src/img/property2.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block h4 m-0">Nibir Vila</span>
+                            <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                            <span class="text-light d-block">Hajiganj, Chandpur</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="img-container rounded">
+                            <img class="object-fit rounded"
+                                 src="/theme_home/static/src/img/property3.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block h4 m-0">Sartho Vila</span>
+                            <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                            <span class="text-light d-block">Eastern Housing</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="img-container rounded">
+                            <img class="object-fit rounded"
+                                 src="/theme_home/static/src/img/property4.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block h4 m-0">Paradise</span>
+                            <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                            <span class="text-light d-block">Cumilla</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
