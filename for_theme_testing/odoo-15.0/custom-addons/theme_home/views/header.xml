@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="customer_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light py-3  ">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img style="height:60px; width:auto;" src="/theme_home/static/src/img/images.png"/>
+                            <strong>
+                                Muntasir's
+                            </strong>
+
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
+                                    </t>
+                                </t>
+                                <!--                                <li class="nav-item active">-->
+                                <!--                                    <a class="nav-link font-weight-medium" href="#">Home</a>-->
+                                <!--                                </li>-->
+                                <!--                                <li class="nav-item">-->
+                                <!--                                    <a class="nav-link font-weight-medium" href="#">Blog</a>-->
+                                <!--                                </li>-->
+                                <!--                                <li class="nav-item">-->
+                                <!--                                    <a class="nav-link font-weight-medium" href="#">Services</a>-->
+                                <!--                                </li>-->
+                                <!--                                <li class="nav-item">-->
+                                <!--                                    <a class="nav-link font-weight-medium" href="#">Contact</a>-->
+                                <!--                                </li>-->
+                            </ul>
+                            <div class="d-block d-lg-none">
+                                <ul class="navbar-nav mr-auto">
+                                    <!-- Sign In -->
+                                    <t t-call="portal.placeholder_user_sign_in">
+                                        <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                        <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                    </t>
+                                    <!-- User Dropdown -->
+                                    <t t-call="portal.user_dropdown">
+                                        <t t-set="_user_name" t-value="true"/>
+                                        <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                        <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                    </t>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="navbar-nav mr-auto">
+                                <!-- Sign In -->
+                                <t t-call="portal.placeholder_user_sign_in">
+                                    <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                    <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                </t>
+                                <!-- User Dropdown -->
+                                <t t-call="portal.user_dropdown">
+                                    <t t-set="_user_name" t-value="true"/>
+                                    <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                    <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                </t>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+            </header>
+
+        </xpath>
+    </template>
+</odoo>

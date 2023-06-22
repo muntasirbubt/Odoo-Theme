@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="s_cover_login" name="In Log In">
+        <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96"
+                         data-scroll-background-ratio="1">
+                    <span class="s_parallax_bg oe_img_bg"
+                          style="background-image: url('/theme_home/static/src/img/contact-bg.jpg'); background-position: 50% 0;"/>
+                    <div class="o_we_bg_filter bg-black-50"/>
+                    <div class="container s_allow_columns">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 class="h1">
+                                    Muntasir Help You to<br class="d-none d-lg-block"/>Find Your Next Home
+                                </h2>
+                                <p class="pr-5">Hey! Are you want to contact with me, if you want then fill this
+                                    form. Thank You
+
+                                </p>
+                                <p>
+                                    <a herf="#"
+                                       class="btn btn-primary mb-2 mt-3 rounded-circle px-5 font-wight-medium">
+                                        Learn More
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 o_cc1 p-5 rounded">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" class="form-control" id="name"
+                                               placeholder="Eg. Muntasir"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Your Email</label>
+                                        <input type="email" class="form-control" id="email"
+                                               placeholder="Eg. youremail@gmail.com"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Your Number</label>
+                                        <input type="number" class="form-control" id="number"
+                                               placeholder="Eg. 123456789"/>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </template>
+</odoo>

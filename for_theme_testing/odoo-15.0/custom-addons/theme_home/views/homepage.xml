@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Home">
+        <xpath expr="//t[@t-call ='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'"/>
+                <div class="oe_structure"/>
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96"
+                         data-scroll-background-ratio="1">
+                    <span class="s_parallax_bg oe_img_bg"
+                          style="background-image: url('/theme_home/static/src/img/home-bg.jpg'); background-position: 50% 0;"/>
+                    <div class="o_we_bg_filter bg-black-50"/>
+                    <div class="container s_allow_columns">
+                        <h1 style="text-align: center;">
+                            <font style="font-size: 62px; font-weight: bold;">Find Your New Home</font>
+                        </h1>
+                        <p class="lead" style="text-align: center; color:blue; font-weight: bold">There is no word
+                            in this world which can describe MD Muntasir Kamal
+                            <br/>
+                            Be A good Person.
+                        </p>
+                        <p style="text-align: center;">
+                            <a t-att-href="cta_btn_href"
+                               class="btn btn-primary mb-2 mt-3 rounded-circle px-5 font-wight-medium">
+                                <t t-esc="cta_btn_text ">Learn More</t>
+                            </a>
+                        </p>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+
+                <section class="explore-cities py-5">
+                    <div class="container">
+                        <div class="text-center py-5">
+                            <h2 class="h1">Explore Cities</h2>
+                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                                industries for<br/>previewing layouts and visual mockups.
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city1.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city2.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city3.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city4.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city5.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city6.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city7.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="img-container mr-3 rounded">
+                                        <img class="country-image rounded"
+                                             src="/theme_home/static/src/img/city8.png"/>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-0">Country Name</h5>
+                                        <div>City name</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+
+                <section class="new-properties o_cc5 mt-5">
+                    <div class="container py-5">
+                        <div class="d-flex align-item-center">
+                            <h2 class="h1">
+                                New Properties
+                            </h2>
+                            <a herf="#"
+                               class="ml-auto btn btn-primary mb-2 mt-3 rounded-circle font-wight-medium">
+                                <t t-esc="cta_btn_text ">View All Properties</t>
+                            </a>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-lg-3">
+                                <div class="img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/property1.png"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block h4 m-0">Housing Vila</span>
+                                    <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                                    <span class="text-light d-block">Dhaka,Bangladesh</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/property2.png"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block h4 m-0">Nibir Vila</span>
+                                    <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                                    <span class="text-light d-block">Hajiganj, Chandpur</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/property3.png"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block h4 m-0">Sartho Vila</span>
+                                    <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                                    <span class="text-light d-block">Eastern Housing</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/property4.png"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block h4 m-0">Paradise</span>
+                                    <span class="text-primary d-block h3 m-0">100,000 BDT</span>
+                                    <span class="text-light d-block">Cumilla</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+                <section class="property-agents">
+                    <div class="container">
+                        <div class="text-center py-5">
+                            <h2 class="h1">Property Agents</h2>
+                            <p>Hello Agents Number 01 How are you</p>
+                        </div>
+                        <div class="d-flex justify-content-center pb-5">
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/agent1.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company Name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/agent2.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company Name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/agent3.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company Name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/agent4.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company Name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded"
+                                         src="/theme_home/static/src/img/agent5.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company Name</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96"
+                         data-scroll-background-ratio="1">
+                    <span class="s_parallax_bg oe_img_bg"
+                          style="background-image: url('/theme_home/static/src/img/contact-bg.jpg'); background-position: 50% 0;"/>
+                    <div class="o_we_bg_filter bg-black-50"/>
+                    <div class="container s_allow_columns">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 class="h1">
+                                    Muntasir Help You to<br class="d-none d-lg-block"/>Find Your Next Home
+                                </h2>
+                                <p class="pr-5">Hey! Are you want to contact with me, if you want then fill this
+                                    form. Thank You
+
+                                </p>
+                                <p>
+                                    <a herf="#"
+                                       class="btn btn-primary mb-2 mt-3 rounded-circle px-5 font-wight-medium">
+                                        Learn More
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 o_cc1 p-5 rounded">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" class="form-control" id="name"
+                                               placeholder="Eg. Muntasir"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Your Email</label>
+                                        <input type="email" class="form-control" id="email"
+                                               placeholder="Eg. youremail@gmail.com"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Your Number</label>
+                                        <input type="number" class="form-control" id="number"
+                                               placeholder="Eg. 123456789"/>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+            </t>
+        </xpath>
+    </template>
+</odoo>
