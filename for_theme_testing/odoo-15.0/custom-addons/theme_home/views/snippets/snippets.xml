@@ -20,6 +20,10 @@
                     <t t-snippet="theme_home.explore_city"
                        t-thumbnail="/website/static/src/img/snippets_thumbs/s_banner.svg">
                         <keywords>cities</keywords>
+
+                    </t><t t-snippet="theme_home.carousel_slides"
+                       t-thumbnail="/website/static/src/img/snippets_thumbs/s_banner.svg">
+                        <keywords>cities</keywords>
                     </t>
 <!--                    <t t-snippet="theme_home.menu_rent"-->
 <!--                       t-thumbnail="/website/static/src/img/snippets_thumbs/s_banner.svg">-->

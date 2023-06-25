@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="yh_carosel_form" model="ir.ui.view">
+            <field name="name">carousel.view.form</field>
+            <field name="model">carousel.view</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                        <group string="">
+                            <field name="title"/>
+                            <field name="sub_title"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="yh_carosel_view_tree" model="ir.ui.view">
+            <field name="name">carousel.view.view.tree</field>
+            <field name="model">carousel.view</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="title"/>
+                    <field name="sub_title"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="yh_carosel_action" model="ir.actions.act_window">
+            <field name="name">Your Home Carosel</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">carousel.view</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No Carosel include yet!
+                </p>
+                <p>
+                    Please add a new Carosel property!
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_carosel_sub_menu" name="Carosel"
+                  sequence="2"
+                  parent="yh_root_menu"
+                  action="theme_home.yh_carosel_action"/>
+    </data>
+</odoo>

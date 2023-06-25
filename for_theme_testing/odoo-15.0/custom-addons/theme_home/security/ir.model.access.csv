@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_yh_cities,yh_cities,model_yh_cities,,1,1,1,1
+access.carousel.view,access_carousel_view,theme_home.model_carousel_view,,1,1,1,1
